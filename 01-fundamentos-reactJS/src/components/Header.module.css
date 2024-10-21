@@ -1,4 +1,11 @@
 .header {
-    background: #222227;
-    height: 80px;
+    background: var(--grey-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.header img {
+    width: 2.2rem;
+    height: 2.4rem;
 }
