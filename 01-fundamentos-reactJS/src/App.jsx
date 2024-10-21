@@ -1,9 +1,14 @@
-import { Post } from "./components/post"
+// components
+import { Header } from "./components/Header"
+import { Post } from "./post"
+// styles
+import './styles.css'
 
 function App() {
 
   return (
     <div>
+      <Header/>
       <h1>Hello World!</h1>
       <Post
         author="Thiago Hens"
