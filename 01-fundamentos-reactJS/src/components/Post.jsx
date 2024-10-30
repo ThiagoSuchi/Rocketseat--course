@@ -1,8 +1,11 @@
+import { Comment } from './Comment'
+
 // styles
 import styles from './Post.module.css'
 
 // usuarios
 import usuario from '../assets/usuario1.png'
+
 
 export function Post() {
     return (
@@ -38,6 +41,12 @@ export function Post() {
                     <button type='submit'>Publicar</button>
                 </footer>
             </form>
+
+            <div className={styles.commentList}>
+                <Comment/>
+                <Comment/>
+                <Comment/>
+            </div>
         </article>
     )
 }
