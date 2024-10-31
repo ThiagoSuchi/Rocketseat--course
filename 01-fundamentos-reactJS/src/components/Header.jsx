@@ -7,6 +7,7 @@ export function Header () {
     return (
         <header className={styles.header}>
             <img src={safiraLogo} alt="logotipo-Safria" />
+            <h1>Sapphir<span>Us</span></h1>
         </header>
     )
 }

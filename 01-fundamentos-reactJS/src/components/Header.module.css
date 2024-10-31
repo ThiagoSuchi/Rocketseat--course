@@ -3,9 +3,14 @@
     display: flex;
     justify-content: center;
     padding: 1.25rem 0;
+    gap: 1rem;
 }
 
 .header img {
     width: 2rem;
     height: 2.4rem;
+}
+
+.header h1 span{
+    color: var(--blue-500);
 }

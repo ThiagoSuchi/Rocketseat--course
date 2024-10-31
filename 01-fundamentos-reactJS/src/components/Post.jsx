@@ -9,14 +9,14 @@ import styles from './Post.module.css'
 import usuario from '../assets/usuario1.png'
 
 
+export function Post(props) {
+    console.log(props);
 
-
-export function Post() {
     return (
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <Avatar src={usuario}/>
+                    <Avatar src={usuario} />
                     <div className={styles.authorInfo}>
                         <strong>Jane Coper Freier</strong>
                         <span>Dev Front-end</span>
@@ -47,7 +47,8 @@ export function Post() {
             </form>
 
             <div className={styles.commentList}>
-                <Comment/>
+                <Comment />
+                <Comment />
             </div>
         </article>
     )
