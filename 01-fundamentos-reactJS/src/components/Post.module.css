@@ -38,6 +38,7 @@
 .post > header time {
     font-size: 0.875rem;
     color: var(--grey-400);
+    cursor: pointer;
 }
 
 .author {

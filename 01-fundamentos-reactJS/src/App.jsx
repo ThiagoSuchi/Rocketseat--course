@@ -6,6 +6,7 @@ import { Sidebar } from "./components/Sidebar"
 import styles from './App.module.css'
 import './global.css'
 
+
 function App() {
 
   return (
@@ -16,7 +17,6 @@ function App() {
         <Sidebar />
 
         <main>
-          <Post/>
           <Post/>
         </main>
       </div>
