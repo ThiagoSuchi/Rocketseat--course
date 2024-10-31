@@ -46,12 +46,6 @@
     gap: 1rem;
 }
 
-.author img {
-    border-radius: 10px;
-    border: 4px solid var(--grey-800);
-    outline: 2px solid var(--blue-500);
-}
-
 .authorInfo {
     display: flex;
     flex-direction: column;
